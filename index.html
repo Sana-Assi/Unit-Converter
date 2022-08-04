@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="work.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+</head>
+<body>
+     <div class="container">
+        <h1> Unit convertor</h1>
+        <div class="top-Part">
+            <label  for=""> 
+              <input id="input-value" type="text"   placeholder="Write Number"> 
+                  <select   id="input-select" name="">
+                    <option value="kilometer"> kilometer</option>
+                    <option value="meter"> meter</option>
+                    <option value="centimeter"> centimeter</option>
+                    <option value="millmeter"> millmeter</option>
+
+        
+                   </select>
+            </label>
+        </div>
+
+        <div class="middile">
+            <label  class="middle-label" for="">
+              
+                <select   id="output-select" name="">
+                   
+                    <option value="kilometer"> kilometer</option>
+                    <option value="meter"> meter</option>
+                    <option value="centimeter"> centimeter</option>
+                    <option value="millmeter"> millmeter</option>
+
+        
+                   </select>
+              Convert <span>To</span>  
+            </label>
+        </div>
+        <div class="bottom-part">
+           <p  id="output-value" ></p>
+            <p class="shownRes">Result: <span id="lastResult"></span> </p>
+
+        </div>
+     </div>
+
+</body>
+</html>

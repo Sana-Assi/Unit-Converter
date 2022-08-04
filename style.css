@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+
+}
+
+body{
+   
+    background-image:linear-gradient(rgb(254, 163, 163),rgb(163, 218, 250)) ;
+    height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.container{
+    border:2px solid rgb(115, 201, 250);
+    outline: 2px solid rgb(254, 146, 146);
+    outline-offset: 1.5px;
+    padding: 20px;
+    border-radius: 17px;
+    width: 32em;
+    height: 25em;
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 1px;
+}
+h1{
+    color:rgb(105, 104, 104);
+}
+
+.top-Part{
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;  
+}
+#input-value{
+    background:transparent;
+    border: none;
+   border-bottom: 2px solid rgb(244, 122, 122);  
+padding: 4px;
+font-size: 1.25rem;
+color:rgb(2, 20, 112);
+font-weight: bold;
+outline: none;
+}
+
+#input-select{
+
+    border: 2px solid  rgb(244, 122, 122);
+    background:none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(181, 72, 72);
+
+    text-align: center;
+/*     color: rgb(2, 128, 202);
+ */    outline: none;
+    cursor: pointer;
+}
+#input-select option{
+background-color:rgb(98, 171, 213);
+color: rgb(181, 72, 72);
+font-weight: bold;
+outline: none;
+}
+
+
+
+.middile{
+    margin-bottom: 3.5em;
+}
+#output-select{
+    border: 2px solid rgb(2, 128, 202);
+    background:none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    color:rgb(2, 20, 112);
+
+    text-align: center;
+/*     color:  rgb(244, 122, 122);
+ */    outline: none; 
+    cursor: pointer;  
+}
+#output-select option{
+    background-color: rgb(246, 155, 155);
+    color:rgb(2, 20, 112);
+    font-weight: bold;
+    }
+.middle-label{
+    color:rgb(1, 86, 136);
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.middle-label span{
+    color:  rgb(255, 111, 111)
+}
+
+#output-value{
+    border-bottom: 2px solid rgb(3, 118, 184);
+display: flex;
+margin-left: 12em;
+margin-bottom: 1.2em;
+justify-content: center;
+color: rgb(181, 72, 72);
+font-weight: bolder;
+    width: 25%;
+}
+.shownRes{
+    color:  rgb(255, 111, 111);
+    font-weight: bolder;
+    font-size: 1.8rem; 
+}
+#lastResult {
+    color:rgb(1, 86, 136)
+}
+
